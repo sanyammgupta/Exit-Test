@@ -1,66 +1,83 @@
-2022-10-07 16:54:56,194 DEBUG [main] InternalLoggerFactory:89 - Using Log4J as the default logging framework
-2022-10-07 16:54:56,199 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
-2022-10-07 16:54:56,200 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
-2022-10-07 16:54:56,204 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6d23017e
-2022-10-07 16:54:56,217 DEBUG [main] PlatformDependent0:495 - -Dio.netty.noUnsafe: false
-2022-10-07 16:54:56,218 DEBUG [main] PlatformDependent0:998 - Java version: 11
-2022-10-07 16:54:56,220 DEBUG [main] PlatformDependent0:136 - sun.misc.Unsafe.theUnsafe: available
-2022-10-07 16:54:56,221 DEBUG [main] PlatformDependent0:160 - sun.misc.Unsafe.copyMemory: available
-2022-10-07 16:54:56,221 DEBUG [main] PlatformDependent0:192 - sun.misc.Unsafe.storeFence: available
-2022-10-07 16:54:56,222 DEBUG [main] PlatformDependent0:235 - java.nio.Buffer.address: available
-2022-10-07 16:54:56,223 DEBUG [main] PlatformDependent0:319 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-2022-10-07 16:54:56,223 DEBUG [main] PlatformDependent0:384 - java.nio.Bits.unaligned: available, true
-2022-10-07 16:54:56,224 DEBUG [main] PlatformDependent0:451 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @333d4a8c
-2022-10-07 16:54:56,225 DEBUG [main] PlatformDependent0:481 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-2022-10-07 16:54:56,225 DEBUG [main] PlatformDependent:1120 - sun.misc.Unsafe: available
-2022-10-07 16:54:56,236 DEBUG [main] PlatformDependent:1231 - maxDirectMemory: 4137680896 bytes (maybe)
-2022-10-07 16:54:56,238 DEBUG [main] PlatformDependent:1250 - -Dio.netty.tmpdir: C:\Users\SANYAM~1\AppData\Local\Temp (java.io.tmpdir)
-2022-10-07 16:54:56,239 DEBUG [main] PlatformDependent:1329 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2022-10-07 16:54:56,240 DEBUG [main] PlatformDependent:1080 - Platform: Windows
-2022-10-07 16:54:56,241 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
-2022-10-07 16:54:56,241 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2022-10-07 16:54:56,242 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
-2022-10-07 16:54:56,242 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
-2022-10-07 16:54:56,249 DEBUG [main] PlatformDependent:971 - org.jctools-core.MpscChunkedArrayQueue: available
-2022-10-07 16:54:56,268 DEBUG [main] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2022-10-07 16:54:56,269 DEBUG [main] InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2022-10-07 16:54:56,415 DEBUG [main] JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-2022-10-07 16:54:56,415 DEBUG [main] JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-2022-10-07 16:54:56,435 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
-2022-10-07 16:54:56,444 DEBUG [main] NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
-2022-10-07 16:54:56,445 DEBUG [main] NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
-2022-10-07 16:54:56,487 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
-2022-10-07 16:54:56,487 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
-2022-10-07 16:54:56,488 DEBUG [main] PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
-2022-10-07 16:54:56,488 DEBUG [main] PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
-2022-10-07 16:54:56,488 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
-2022-10-07 16:54:56,489 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
-2022-10-07 16:54:56,489 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
-2022-10-07 16:54:56,489 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2022-10-07 16:54:56,489 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
-2022-10-07 16:54:56,489 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-2022-10-07 16:54:56,489 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
-2022-10-07 16:54:56,490 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-2022-10-07 16:54:56,505 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
-2022-10-07 16:54:56,505 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
-2022-10-07 16:54:56,505 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-2022-10-07 16:54:57,430 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 2236 (auto-detected)
-2022-10-07 16:54:57,432 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv4Stack: false
-2022-10-07 16:54:57,432 DEBUG [Forwarding newSession on session null to remote] NetUtil:137 - -Djava.net.preferIPv6Addresses: false
-2022-10-07 16:54:57,587 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-2022-10-07 16:54:57,588 DEBUG [Forwarding newSession on session null to remote] NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-2022-10-07 16:54:57,741 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 20:c1:9b:ff:fe:5d:06:92 (auto-detected)
-2022-10-07 16:54:57,801 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
-2022-10-07 16:54:57,803 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
-2022-10-07 16:54:57,804 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@73518ad8
-2022-10-07 16:54:57,831 DEBUG [AsyncHttpClient-1-2] Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
-2022-10-07 16:54:57,832 DEBUG [AsyncHttpClient-1-2] Recycler:86 - -Dio.netty.recycler.ratio: 8
-2022-10-07 16:54:57,832 DEBUG [AsyncHttpClient-1-2] Recycler:87 - -Dio.netty.recycler.chunkSize: 32
-2022-10-07 16:54:57,832 DEBUG [AsyncHttpClient-1-2] Recycler:88 - -Dio.netty.recycler.blocking: false
-2022-10-07 16:54:58,514 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
-2022-10-07 16:54:58,621 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x28d03492cec29421
-2022-10-07 16:55:23,967 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
-2022-10-07 16:55:23,970 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
-2022-10-07 16:55:23,973 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2022-10-07 16:55:23,976 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2022-10-07 16:55:23,977 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sanyamgupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-10-07 17:59:29,955 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-10-07 17:59:29,962 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-10-07 17:59:29,966 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-10-07 17:59:29,967 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-10-07 17:59:29,970 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sanyamgupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-10-07 17:59:58,959 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-10-07 17:59:58,960 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-10-07 17:59:58,960 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-10-07 17:59:58,961 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-10-07 17:59:58,962 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sanyamgupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-10-07 18:00:39,708 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-10-07 18:00:39,709 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-10-07 18:00:39,712 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-10-07 18:00:39,715 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-10-07 18:00:39,716 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sanyamgupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-10-07 18:01:53,250  INFO [main] addtoCart:24 - login to flipkart
+2022-10-07 18:01:55,664  INFO [main] addtoCart:31 - Searching on flipkart
+2022-10-07 18:01:58,082  INFO [main] addtoCart:40 - Setup selenium to access new tab
+2022-10-07 18:01:58,118  INFO [main] addtoCart:47 - adding item to cart
+2022-10-07 18:02:00,036 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-10-07 18:02:00,039 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-10-07 18:02:00,040 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-10-07 18:02:00,041 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-10-07 18:02:00,041 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sanyamgupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-10-07 18:02:27,867  INFO [main] carouselScroll:15 - Click on Carousel next button
+2022-10-07 18:02:31,212 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-10-07 18:02:31,213 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-10-07 18:02:31,213 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-10-07 18:02:31,215 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-10-07 18:02:31,216 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sanyamgupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-10-07 18:03:07,751  INFO [main] downloadApp:30 - Click on Download App Button
+2022-10-07 18:03:08,134 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-10-07 18:03:08,135 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-10-07 18:03:08,136 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-10-07 18:03:08,137 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-10-07 18:03:08,137 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sanyamgupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-10-07 18:03:44,433  INFO [main] explorePlus:19 - Click on Explore Plus button
+2022-10-07 18:03:44,547 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-10-07 18:03:44,549 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-10-07 18:03:44,549 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-10-07 18:03:44,550 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-10-07 18:03:44,550 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sanyamgupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-10-07 18:04:23,633  INFO [main] gotoCart:24 - Click on Cart button
+2022-10-07 18:04:23,773 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-10-07 18:04:23,775 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-10-07 18:04:23,776 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-10-07 18:04:23,778 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-10-07 18:04:23,778 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sanyamgupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-10-07 18:04:54,231 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-10-07 18:04:54,233 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-10-07 18:04:54,233 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-10-07 18:04:54,234 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-10-07 18:04:54,235 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sanyamgupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-10-07 18:05:32,683 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-10-07 18:05:32,683 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-10-07 18:05:32,684 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-10-07 18:05:32,684 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-10-07 18:05:32,684 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sanyamgupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-10-07 18:06:20,155 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-10-07 18:06:20,156 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-10-07 18:06:20,157 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-10-07 18:06:20,158 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-10-07 18:06:20,158 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sanyamgupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-10-07 18:07:40,578 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-10-07 18:07:40,578 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-10-07 18:07:40,579 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-10-07 18:07:40,579 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-10-07 18:07:40,579 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sanyamgupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-10-07 18:09:20,834 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-10-07 18:09:20,835 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-10-07 18:09:20,835 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-10-07 18:09:20,836 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-10-07 18:09:20,836 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sanyamgupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-10-07 18:10:54,986 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-10-07 18:10:54,987 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-10-07 18:10:54,988 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-10-07 18:10:54,988 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-10-07 18:10:54,988 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sanyamgupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-10-07 18:11:50,977 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-10-07 18:11:50,978 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-10-07 18:11:50,978 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-10-07 18:11:50,979 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-10-07 18:11:50,979 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sanyamgupta/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
