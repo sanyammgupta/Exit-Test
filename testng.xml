@@ -48,7 +48,7 @@
                     <include name="cart"/>
                 </methods>
             </class>
-            <class name="tests.groceries">
+            <class name="tests.appliances">
                 <methods>
                     <include name="groceriespage"/>
                 </methods>
@@ -78,22 +78,22 @@
                     <include name="SignUp"/>
                 </methods>
             </class>
-            <class name="tests.supercoinZone">
+            <class name="tests.GiftCards">
                 <methods>
                     <include name="supercoin"/>
                 </methods>
             </class>
-            <class name="tests.topOffers">
+            <class name="tests.viewoffers">
                 <methods>
                     <include name="offers"/>
                 </methods>
             </class>
-            <class name="tests.travel">
+            <class name="tests.beauty">
                 <methods>
                     <include name="travelpage"/>
                 </methods>
             </class>
-            <class name="tests.fashions">
+            <class name="tests.gadgets">
                 <methods>
                     <include name="groceriespage"/>
                 </methods>
